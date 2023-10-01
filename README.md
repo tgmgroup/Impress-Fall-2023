@@ -1,9 +1,9 @@
-# Impress-Summer-2023
-This is the source code for Impress Magazine's Summer, 2023 online issue and apps.
+# Impress-Fall-2023
+This is the source code for Impress Magazine's Fall, 2023 online issue and apps.
 
 Impress Magazine is an English-learning magazine for young Japanese readers. This is our effort to make it more interactive and accessible for readers everywhere.
 
-You can read our online magazine here: [Online Magazine](https://impress-summer-2023.isesaki.in) and you can find our companion materials here: [Materials](https://in.isesaki.in/impress-summer-2023)
+You can read our online magazine here: [Online Magazine](https://impress-fall-2023.isesaki.in) and you can find our companion materials here: [Materials](https://in.isesaki.in/impress-fall-2023)
 
 You can find our Android app here: [Google Play Store](https://play.google.com/store/apps/details?id=in.isesaki.in.impressmagazine_summer2023&pcampaignid=web_share)
 [![Google Play Badge](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=in.isesaki.in.impressmagazine_summer2023&pcampaignid=web_share)
