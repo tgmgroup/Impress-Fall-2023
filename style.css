@@ -299,18 +299,18 @@ h6 {
 }
 
 .audio-button-image {
-    border-radius: 1vw;
+    border-radius: 5vw;
     box-shadow: 0vw .01vw .05vw rgba(0, 0, 0, 0.5);
-    max-height: 1.8vw;
-    max-width: 1.8vw;
+    max-height: 3vw;
+    max-width: 3vw;
     object-fit: contain;
 }
 
 .audio-button-image:hover {
-    background-color: rgba(173, 195, 255, 0.884);
+    background-color: rgba(255, 218, 173, 0.884);
     transition: background-color 0.2s;
-    max-height: 2vw;
-    max-width: 2vw;
+    max-height: 3.3vw;
+    max-width: 3.3vw;
 }
 
 .center-items {
