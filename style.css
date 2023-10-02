@@ -176,7 +176,7 @@ h6 {
 
 .header {
     background-color: #f1faff;
-    background-image: linear-gradient(160deg, #eeedf1 0%, #8a8ce6 127%);
+    background-image: linear-gradient(160deg, #eeedf1 0%, #3c1000 127%);
     box-shadow: 0 .10vw .20vw rgba(0, 0, 0, 0.836), 0 .6vw .6vw rgba(0, 0, 0, 0.23);
     box-shadow: 0vw .01vw .05vw rgba(0, 0, 0, 0.5);
     border: 0vw;
@@ -193,7 +193,7 @@ h6 {
 
 .footer {
     background-color: #f1faff;
-    background-image: linear-gradient(160deg, #eeedf1 0%, #8a8ce6 127%);
+    background-image: linear-gradient(160deg, #eeedf1 0%, #3c1000 127%);
     box-shadow: 0 .10vw .20vw rgba(0, 0, 0, 0.836), 0 .6vw .6vw rgba(0, 0, 0, 0.23);
     box-shadow: 0vw .01vw .05vw rgba(0, 0, 0, 0.5);
     border: 0vw;
@@ -206,7 +206,7 @@ h6 {
 }
 
 .sidebar {
-    background-image: linear-gradient(203deg, #4b73b5 0%, #0b004f 90%);
+    background-image: linear-gradient(203deg, #b57b4b 0%, #210a01 90%);
     box-shadow: 0 .1vw .2vw rgba(0, 0, 0, 0.836), 0 .06vw .06vw rgba(0, 0, 0, 0.23);
     padding: .1vw;
 }
@@ -246,11 +246,11 @@ h6 {
     height: 6.2vw;
     width: 6.2vw;
 
-    background-image: linear-gradient(160deg, #f0eff3 0%, #0a0135 127%);
+    background-image: linear-gradient(160deg, #f0eff3 0%, #351201 127%);
     border-radius: .10vw;
     box-shadow: 0vw .1vw .5vw rgba(0, 0, 0, 0.5);
     border: 0vw;
-    color: #f8f6ff;
+    color: #fffaf6;
     border-radius: .15vw;
 
     font-family: 'Klee One', cursive;
@@ -263,7 +263,7 @@ h6 {
 }
 
 .menu-button:hover {
-    background-color: rgba(6, 37, 124, 0.884);
+    background-color: rgba(73, 36, 3, 0.884);
     transition: background-color 0.2s;
     height: 7vw;
     width: 7vw;
@@ -273,7 +273,7 @@ h6 {
     height: 3.1vw;
     width: 6.2vw;
 
-    background-image: linear-gradient(160deg, #f0eff3 0%, #0a0135 127%);
+    background-image: linear-gradient(160deg, #f0eff3 0%, #351a01 127%);
     border-radius: .10vw;
     box-shadow: 0vw .1vw .5vw rgba(0, 0, 0, 0.5);
     border: 0vw;
@@ -292,7 +292,7 @@ h6 {
 }
 
 .menu-button-small:hover {
-    background-color: rgba(6, 37, 124, 0.884);
+    background-color: rgba(124, 53, 6, 0.884);
     transition: background-color 0.2s;
     height: 4vw;
     width: 7vw;
@@ -398,12 +398,12 @@ h6 {
     box-shadow: 0vw .1vw .5vw rgba(0, 0, 0, 0.5);
     height: 2.7vw;
     width: 2.7vw;
-    background-color:#e6defd;
+    background-color:#fdf3de;
     object-fit: contain;
 }
 
 .left-menu-image:hover {
-    background-color: rgba(173, 195, 255, 0.884);
+    background-color: rgba(255, 204, 173, 0.884);
     transition: background-color 0.2s;
     height: 3.5vw;
     width: 3.5vw;
