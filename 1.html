@@ -17,11 +17,15 @@
         <div class="item sidebar sidebar-left">
             <div class="item header header-left">
                 <form>
-                    <button class="menu-button clickable" type="submit" formaction="index.html">
+                    <!-- <button class="menu-button clickable" type="submit" formaction="index.html" >
                         <h6>Impress<br>Magazine</h6>
+                    </button> -->
+                    <button class="menu-button clickable" type="button" onclick="toggleFullScreen();">
+                        <h5>Impress<small><br>大きく・小さく</small></h5>
                     </button>
                 </form>
             </div>
+
             <div class="left-menu">
                 <a href="index.html" target="_self">
                     <div class="left-menu-button"><img class="left-menu-image clickable" src="nav-images/front.png"></a>
@@ -51,17 +55,18 @@
                     <div class="left-menu-button"><img class="left-menu-image clickable" src="nav-images/about.png"></a>
                 </div>
             </div>
+
             <div class="item footer footer-left-top">
                 <form>
                     <button class="menu-button-small clickable" type="submit" formaction="index.html">
-                        <h6>Previous</h6>
+                        <h6>< Previous</h6>
                     </button>
                 </form>
             </div>
             <div class="item footer footer-left-bottom">
                 <form>
                     <button class="menu-button-small clickable" type="submit" formaction="3.html">
-                        <h6>Next</h6>
+                        <h6>Next ></h6>
                     </button>
                 </form>
             </div>
@@ -80,7 +85,7 @@
     
                 <div class="items hidden-text clickable" id="text1-0" onClick="this.style.display='none'">
                     <h2>Famous Things around the World<br><br>
-                    What are some famous things from other countries? </h2>
+                    What are some famous things from other countries? Students at Toyouke Elementary School made these presentations about countries they want to visit! Read about them and learn about cool things all around the world!</h2>
                 </div>
     
                 <audio id="audio1-0">
@@ -93,7 +98,11 @@
                 </button>
 
                 <div class="items hidden-text clickable" id="text1-1" onClick="this.style.display='none'">
-                    <h3>France
+                    <h3>France<br><br>
+                        France is a nice country.<br>
+                        You can see the Eiffel Tower.<br>
+                        You can eat canelé.<br>
+                        It's delicious.
                     </h3>
                 </div>
 
@@ -107,7 +116,13 @@
                 </button>
 
                 <div class="items hidden-text clickable" id="text1-2" onClick="this.style.display='none'">
-                    <h3>Switzerland
+                    <h3>Switzerland<br><br>
+                        Switzerland is a nice country.<br>
+                        You can eat cheese fondue.<br>
+                        It's delicious.<br>
+                        You can see the Matterhorn.<br>
+                        It's very powerful.<br>
+                        I want to go to Switzerland.
                     </h3>
                 </div>
 
@@ -121,7 +136,11 @@
                 </button>
 
                 <div class="items hidden-text clickable" id="text1-3" onClick="this.style.display='none'">
-                    <h3>Vietnam
+                    <h3>Vietnam<br><br>
+                        Vietnam is a nice country.<br>
+                        You can see the Ba Na Hills.<br>
+                        You can eat banh mi.<br>
+                        It's sweet and sour.
                     </h3>
                 </div>
 
@@ -135,7 +154,14 @@
                 </button>
 
                 <div class="items hidden-text clickable" id="text1-4" onClick="this.style.display='none'">
-                    <h3>Australia
+                    <h3>Australia<br><br>
+                        Australia is a nice country.<br>
+                        You can eat fish and chips.<br>
+                        It's delicious.<br>
+                        You can see a koala.<br>
+                        It's very cute.<br>
+                        I want to go to Australia.<br>
+                        Thank you.
                     </h3>
                 </div>
 
@@ -150,7 +176,11 @@
                 </button>
 
                 <div class="items hidden-text clickable" id="text1-5" onClick="this.style.display='none'">
-                    <h3>France
+                    <h3>France<br><br>
+                        France is a nice country.<br>
+                        You can see the Rugby World Cup.<br>
+                        You can eat macaroons.<br>
+                        It's delicious.
                     </h3>
                 </div>
 
@@ -164,7 +194,12 @@
                 </button>
 
                 <div class="items hidden-text clickable" id="text1-6" onClick="this.style.display='none'">
-                    <h3>France
+                    <h3>France<br><br>
+                        France is a nice country.<br>
+                        You can see the Eiffel Tower.<br>
+                        You can eat dessert.<br>
+                        It's delicious.<br>
+                        You can see the Arc de Triomphe.
                     </h3>
                 </div>
 
@@ -179,7 +214,12 @@
                 </button>
 
                 <div class="items hidden-text clickable" id="text1-7" onClick="this.style.display='none'">
-                    <h3>Sweden
+                    <h3>Sweden<br><br>
+                        Sweden is a nice country.<br>
+                        You can see the Stockholm Palace.<br>
+                        It's delicious.<br>
+                        And Scania is a big corporation.<br>
+                        Trucks and buses from Scania are nice and beautiful.
                     </h3>
                 </div>
 
@@ -193,7 +233,13 @@
                 </button>
 
                 <div class="items hidden-text clickable" id="text1-8" onClick="this.style.display='none'">
-                    <h3>Korea
+                    <h3>Korea<br><br>
+                        Korea is a nice country.<br>
+                        You can see Seoul Tower.<br>
+                        It's very big and beautiful.<br>
+                        you can eat gimbap.<br>
+                        It's delicious.<br>
+                        I want to go to Korea.
                     </h3>
                 </div>
 
@@ -210,34 +256,9 @@
         
     </div>
 
-    <!-- Include an audio element to load the sound -->
-    <audio id="hover-sound">
-        <source src="./audio/computerwav-14702A.mp3" type="audio/mpeg">
-        <!-- Add more source elements for different audio formats if needed -->
-    </audio>
 
-    <!-- Include an audio element to load the sound -->
-    <audio id="click-sound">
-        <source src="./audio/computerwav-14702B.mp3" type="audio/mpeg">
-        <!-- Add more source elements for different audio formats if needed -->
-    </audio>
 
-    <script>
-        // Call the function after the page has loaded, passing the class name "clickable"
-        document.addEventListener("DOMContentLoaded", function() {
-            playHoverSoundOnClass("clickable");
-            playClickSoundOnClass("clickable");
-            
-            // Use JavaScript to fetch and insert the menu HTML into the placeholder div.
-            /*fetch('menu.html')
-                .then(response => response.text())
-                .then(data => {
-                document.getElementById('menu-placeholder').innerHTML = data;
-            });*/
 
-        });
-
-    </script>
 
 </body>
 </html>

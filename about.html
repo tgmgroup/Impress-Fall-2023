@@ -17,11 +17,15 @@
         <div class="item sidebar sidebar-left">
             <div class="item header header-left">
                 <form>
-                    <button class="menu-button clickable" type="submit" formaction="index.html">
+                    <!-- <button class="menu-button clickable" type="submit" formaction="index.html" >
                         <h6>Impress<br>Magazine</h6>
+                    </button> -->
+                    <button class="menu-button clickable" type="button" onclick="toggleFullScreen();">
+                        <h5>Impress<small><br>大きく・小さく</small></h5>
                     </button>
                 </form>
             </div>
+
             <div class="left-menu">
                 <a href="index.html" target="_self">
                     <div class="left-menu-button"><img class="left-menu-image clickable" src="nav-images/front.png"></a>
@@ -51,17 +55,18 @@
                     <div class="left-menu-button"><img class="left-menu-image clickable" src="nav-images/about.png"></a>
                 </div>
             </div>
+
             <div class="item footer footer-left-top">
                 <form>
                     <button class="menu-button-small clickable" type="submit" formaction="cover.html">
-                        <h6>Previous</h6>
+                        <h6>< Previous</h6>
                     </button>
                 </form>
             </div>
             <div class="item footer footer-left-bottom">
                 <form>
-                    <button class="menu-button-small clickable" type="submit" formaction="1.html">
-                        <h6>Next</h6>
+                    <button class="menu-button-small clickable" type="submit" formaction="index.html">
+                        <h6>Next ></h6>
                     </button>
                 </form>
             </div>
@@ -71,7 +76,7 @@
 
         </div>
 
-        <div class="item content-center" style="background-image: none;"">
+        <div class="item content-center" style="background-image: none;">
             <div class="left-content">
                 <br>
                 <h1>About the App and Website</h1>
@@ -98,34 +103,9 @@
 
     </div>
 
-    <!-- Include an audio element to load the sound -->
-    <audio id="hover-sound">
-        <source src="./audio/computerwav-14702A.mp3" type="audio/mpeg">
-        <!-- Add more source elements for different audio formats if needed -->
-    </audio>
 
-    <!-- Include an audio element to load the sound -->
-    <audio id="click-sound">
-        <source src="./audio/computerwav-14702B.mp3" type="audio/mpeg">
-        <!-- Add more source elements for different audio formats if needed -->
-    </audio>
 
-    <script>
-        // Call the function after the page has loaded, passing the class name "clickable"
-        document.addEventListener("DOMContentLoaded", function() {
-            playHoverSoundOnClass("clickable");
-            playClickSoundOnClass("clickable");
-            
-            // Use JavaScript to fetch and insert the menu HTML into the placeholder div.
-            /*fetch('menu.html')
-                .then(response => response.text())
-                .then(data => {
-                document.getElementById('menu-placeholder').innerHTML = data;
-            });*/
 
-        });
-
-    </script>
 
 </body>
 </html>

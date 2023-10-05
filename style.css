@@ -158,6 +158,11 @@ h6 {
 
 
 
+small {
+    font-size: .6vw;
+  }
+
+
 .item {
     background-color: #000000;
     /* background-image: linear-gradient(130deg, #f4f3f7 0%, #1EAAFC 85%, #3EDFD7 100%); */
