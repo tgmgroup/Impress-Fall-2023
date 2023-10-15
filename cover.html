@@ -78,6 +78,34 @@
 
         <div class="item content-center" style="background-image: url('Web/page08.jpg');background-size: contain; background-position: center; background-repeat: no-repeat; background-color: #000000;">
             <div class="left-content">
+                <!-- Buttons for Intro Text -->
+
+                <button class="center-items " type="button" onClick="PlayAndShow('audio1-0', 'text1-0', 'play1-0')" style="position: absolute; top: 50.5vw; left: 39vw;">
+                    <img id="play1-0" class="audio-button-image clickable" src="nav-images/play-g79150a13d_1280.png">
+                </button>
+    
+                <div class="items hidden-text clickable" id="text1-0" onClick="this.style.display='none'">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <h3>That's it for this issue of <i>Impress</i>. Thanks as always for your support and ideas. If you have any ideas for the next issue of Impress, go to our website and send them in! We're always glad to hear from you.
+                            </h3>
+                        </div>
+                        <div class="modal-footer">
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Audio for Intro Text -->
+
+                <audio id="audio1-0" class="playondemand">
+                    <source src="./audio/audio7-0.mp3" type="audio/mp3">
+                </audio>
+            </div>
             </div>
         </div>
 

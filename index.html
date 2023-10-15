@@ -78,6 +78,42 @@
 
         <div class="item content-center" style="background-image: url('Web/page01.jpg'); background-size: contain; background-position: center; background-repeat: no-repeat; background-color: #000000;">
             <div class="left-content">
+                
+                <!-- Buttons for Intro Text -->
+
+                <button class="center-items " type="button" onClick="PlayAndShow('audio1-0', 'text1-0', 'play1-0')" style="position: absolute; top: 10vw; left: 68vw;">
+                    <img id="play1-0" class="audio-button-image clickable" src="nav-images/play-g79150a13d_1280.png">
+                </button>
+    
+                <div class="items hidden-text clickable" id="text1-0" onClick="this.style.display='none'">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <p>Hello, this is George, and thanks for reading this <i>Fall, 2023</i> issue of <i>Impress</i>. We really tried to make this cool for you, so we have voice recordings, background music, and surveys in this online magazine.<br><br>
+
+                            The theme of this issue is "All Things Great and Small" because this issue is full of random and seasonal things. But the theme quote for you is pretty meaningful. The author Napoleon Hill once said, "If you cannot do great things, do small things in a great way."<br><br>
+                                
+                            Maybe we can't all write a million-selling book right now. But we can all write a prize-winning essay even as students.<br><br>
+                                
+                            So do your best, and make us proud.<br><br>
+                                
+                            Enjoy the magazine.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Audio for Intro Text -->
+
+                <audio id="audio1-0" class="playondemand">
+                    <source src="./audio/audio0-1.mp3" type="audio/mp3">
+                </audio>
             </div>
         </div>
 
