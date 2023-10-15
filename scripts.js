@@ -1,3 +1,7 @@
+
+
+
+
 function PlayAndShow(audioSound, textDiv, audioImage) {
     var myText = document.getElementById(textDiv);
     var myAudio = document.getElementById(audioSound);

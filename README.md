@@ -12,4 +12,4 @@ We're working on an iOS app, too.
 
 Impress is produced by the Isesaki Board of Education. Development of the apps and websites is done by [Isesaki English Media](https://in.isesaki.in).
 
-
+A big thank you to [W3Schools](https://www.w3schools.com) for the code that they share.
