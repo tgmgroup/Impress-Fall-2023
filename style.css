@@ -330,6 +330,21 @@ a.button {
     max-width: 5.3vw;
 }
 
+.qr-button-image-large {
+    border-radius: 0vw;
+    box-shadow: 0vw .01vw .05vw rgba(0, 0, 0, 0.5);
+    max-height: 10.5vw;
+    max-width: 10.5vw;
+    object-fit: contain;
+}
+
+.qr-button-image-large:hover {
+    background-color: rgba(255, 218, 173, 0.884);
+    transition: background-color 0.2s;
+    max-height: 10.7vw;
+    max-width: 10.7vw;
+}
+
 .center-items {
     background-color: transparent;
     border: none;
