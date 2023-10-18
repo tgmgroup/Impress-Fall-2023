@@ -7,7 +7,7 @@
 
 /* Media query for landscape orientation */
 @media screen and (orientation: landscape) {
-    #content {
+    #container {
         width: 100vw;
         max-width: 177.77vh;
         /*max-width: 1920px;*/
@@ -315,16 +315,16 @@ a.button {
 .qr-button-image {
     border-radius: 0vw;
     box-shadow: 0vw .01vw .05vw rgba(0, 0, 0, 0.5);
-    max-height: 5.1vw;
-    max-width: 5.1vw;
+    max-height: 5.7vw;
+    max-width: 5.7vw;
     object-fit: contain;
 }
 
 .qr-button-image:hover {
     background-color: rgba(255, 218, 173, 0.884);
     transition: background-color 0.2s;
-    max-height: 5.3vw;
-    max-width: 5.3vw;
+    max-height: 5.8vw;
+    max-width: 5.8vw;
 }
 
 .qr-button-image-large {
