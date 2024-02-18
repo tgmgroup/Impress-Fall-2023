@@ -1,4 +1,4 @@
-# Impress-Fall-2023
+# Impress-Fall-2023 
 This is the source code for Impress Magazine's Fall, 2023 online issue and apps.
 
 Impress Magazine is an English-learning magazine for young Japanese readers. This is our effort to make it more interactive and accessible for readers everywhere.
