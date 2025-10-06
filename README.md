@@ -5,8 +5,8 @@ Impress Magazine is an English-learning magazine for young Japanese readers. Thi
 
 You can read our online magazine here: [Online Magazine](https://impress-fall-2023.isesaki.in) and you can find our companion materials here: [Materials](https://in.isesaki.in/impress-fall-2023)
 
-You can find our Android app here: [Google Play Store](https://play.google.com/store/apps/details?id=in.isesaki.in.impressmagazine_summer2023&pcampaignid=web_share)
-[![Google Play Badge](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=in.isesaki.in.impressmagazine_summer2023&pcampaignid=web_share)
+You can find our Android app here: [Google Play Store](https://play.google.com/store/apps/details?id=com.isesaki.impress)
+[![Google Play Badge](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.isesaki.impress)
 
 We're working on an iOS app, too.
 
